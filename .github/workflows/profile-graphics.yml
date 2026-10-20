@@ -15,14 +15,14 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Generate black & gold 3D contribution calendar
+      - name: Generate 3D contribution calendar
         uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: .github/profile-3d-settings.json
 
-      - name: Generate black & gold activity graph
+      - name: Generate activity graph
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 .github/scripts/activity_graph.py "${{ github.repository_owner }}" generated/activity-graph.svg

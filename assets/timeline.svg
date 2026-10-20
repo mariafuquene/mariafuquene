@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="My journey: 2015 Sanitas, 2016 Bottero, 2020 to 2025 Amazon, 2025 Genius Sports, 2025 Emapta, now Systems Engineering">
   <title>My journey</title>
   <style>
-    .bg    { fill: #0D0D0D; }
-    .frame { fill: none; stroke: #D4AF37; stroke-width: 2; }
-    .title { font: 700 26px "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; fill: #FFD700; letter-spacing: 6px; }
-    .track { stroke: #2a2a2a; stroke-width: 4; stroke-linecap: round; }
-    .line  { stroke: #D4AF37; stroke-width: 4; stroke-linecap: round;
+    .bg    { fill: #FFFFFF; }
+    .frame { fill: none; stroke: #C9A227; stroke-width: 1.5; }
+    .title { font: 700 26px "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; fill: #1F2A44; letter-spacing: 6px; }
+    .track { stroke: #E6E8EC; stroke-width: 4; stroke-linecap: round; }
+    .line  { stroke: #C9A227; stroke-width: 4; stroke-linecap: round;
              stroke-dasharray: 740; stroke-dashoffset: 740;
              animation: draw 4.2s linear .3s forwards; }
-    .year  { font: 700 15px "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; fill: #FFD700; }
-    .org   { font: 700 14px "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; fill: #E6E6E6; }
-    .role  { font: 400 12px "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; fill: #D4AF37; }
+    .year  { font: 700 15px "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; fill: #C9A227; }
+    .org   { font: 700 14px "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; fill: #1F2A44; }
+    .role  { font: 400 12px "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; fill: #4A4A4A; }
 
-    .dot   { fill: #1a1a1a; stroke: #5c4a12; stroke-width: 3; animation: light .5s ease-out forwards; }
-    .halo  { fill: #FFD700; opacity: 0; transform-box: fill-box; transform-origin: center; }
+    .dot   { fill: #FFFFFF; stroke: #E6E8EC; stroke-width: 3; animation: light .5s ease-out forwards; }
+    .halo  { fill: #C9A227; opacity: 0; transform-box: fill-box; transform-origin: center; }
     .label { opacity: 0; animation: show .6s ease-out forwards; }
 
     .s1 { animation-delay: .3s; }
@@ -26,7 +26,7 @@
     .now  { animation: pulse 2s ease-out 4.8s infinite; }
 
     @keyframes draw  { to { stroke-dashoffset: 0; } }
-    @keyframes light { to { fill: #FFD700; stroke: #D4AF37; } }
+    @keyframes light { to { fill: #C9A227; stroke: #1F2A44; } }
     @keyframes show  {
       from { opacity: 0; transform: translateY(8px); }
       to   { opacity: 1; transform: translateY(0); }
