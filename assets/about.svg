@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img" aria-label="Who I am: Robots and Tech, Sports and Data, Communication and Creativity">
+  <title>Who I am</title>
+  <style>
+    .bg     { fill: #0D0D0D; }
+    .frame  { fill: none; stroke: #D4AF37; stroke-width: 2; }
+    .title  { font: 700 26px "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; fill: #FFD700; letter-spacing: 6px; }
+    .rule   { stroke: #D4AF37; stroke-width: 2; stroke-dasharray: 160; stroke-dashoffset: 160; animation: draw 1s ease-out .2s forwards; }
+    .card   { fill: #141414; stroke: #D4AF37; stroke-width: 1.5; }
+    .emoji  { font: 40px "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif; }
+    .head   { font: 700 17px "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; fill: #FFD700; }
+    .body   { font: 400 15px "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; fill: #E6E6E6; }
+
+    .block  { opacity: 0; animation: rise .9s cubic-bezier(.2,.8,.2,1) forwards; }
+    .b1 { animation-delay: .6s; }
+    .b2 { animation-delay: 1.4s; }
+    .b3 { animation-delay: 2.2s; }
+
+    .glow   { animation: glow 3s ease-in-out infinite; }
+    .b2 .glow { animation-delay: 1s; }
+    .b3 .glow { animation-delay: 2s; }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes glow {
+      0%, 100% { stroke: #D4AF37; stroke-opacity: .6; }
+      50%      { stroke: #FFD700; stroke-opacity: 1; }
+    }
+  </style>
+
+  <rect class="bg" width="900" height="330" rx="16"/>
+  <rect class="frame" x="1" y="1" width="898" height="328" rx="16"/>
+
+  <text class="title" x="450" y="52" text-anchor="middle">WHO I AM</text>
+  <line class="rule" x1="370" y1="68" x2="530" y2="68"/>
+
+  <!-- 1. Robots & Tech -->
+  <g class="block b1">
+    <rect class="card glow" x="30" y="95" width="266" height="205" rx="12"/>
+    <text class="emoji" x="163" y="152" text-anchor="middle">🤖</text>
+    <text class="head" x="163" y="190" text-anchor="middle">Robots &amp; Tech</text>
+    <text class="body" x="163" y="222" text-anchor="middle">
+      <tspan x="163">I monitor autonomous</tspan>
+      <tspan x="163" dy="21">delivery robots</tspan>
+      <tspan x="163" dy="21">in real time</tspan>
+    </text>
+  </g>
+
+  <!-- 2. Sports & Data -->
+  <g class="block b2">
+    <rect class="card glow" x="317" y="95" width="266" height="205" rx="12"/>
+    <text class="emoji" x="450" y="152" text-anchor="middle">⚽🏀</text>
+    <text class="head" x="450" y="190" text-anchor="middle">Sports &amp; Data</text>
+    <text class="body" x="450" y="222" text-anchor="middle">
+      <tspan x="450">I lead live football &amp; NBA</tspan>
+      <tspan x="450" dy="21">data operations</tspan>
+      <tspan x="450" dy="21">for AI vision models</tspan>
+    </text>
+  </g>
+
+  <!-- 3. Communication & Creativity -->
+  <g class="block b3">
+    <rect class="card glow" x="604" y="95" width="266" height="205" rx="12"/>
+    <text class="emoji" x="737" y="152" text-anchor="middle">🎙️</text>
+    <text class="head" x="737" y="190" text-anchor="middle">Communication &amp; Creativity</text>
+    <text class="body" x="737" y="222" text-anchor="middle">
+      <tspan x="737">Journalist by training:</tspan>
+      <tspan x="737" dy="21">content, photography,</tspan>
+      <tspan x="737" dy="21">storytelling</tspan>
+    </text>
+  </g>
+</svg>

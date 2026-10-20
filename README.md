@@ -1,174 +1,133 @@
+<!-- ═══════════════ BANNER ═══════════════ -->
 <div align="center">
 
-<img src="./assets/header.svg" alt="María Camila Fúquene Galvis — Frontend Developer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,55:5C4A12,100:D4AF37&height=230&section=header&text=Mar%C3%ADa%20Camila%20F%C3%BAquene&fontSize=50&fontColor=FFD700&fontAlignY=38&animation=fadeIn&desc=Real-Time%20Ops%20%C2%B7%20Data%20Quality%20%C2%B7%20Systems%20Engineering%20Student&descSize=17&descAlignY=58" width="100%" alt="María Camila Fúquene — Real-Time Ops · Data Quality · Systems Engineering Student"/>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7F5AF0&center=true&vCenter=true&width=600&lines=%C2%A1Hola!+Soy+Mar%C3%ADa+Camila+%F0%9F%91%8B;Construyo+interfaces+con+HTML+y+CSS+%F0%9F%8E%A8;Doy+vida+a+la+web+con+JavaScript+%E2%9A%A1;Creo+componentes+reutilizables+con+React+%E2%9A%9B%EF%B8%8F" alt="Typing SVG"/>
-</a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1200&color=D4AF37&center=true&vCenter=true&width=620&lines=I%20keep%20autonomous%20robots%20moving%20%F0%9F%A4%96;I%20validate%20live%20data%20that%20trains%20AI%20%E2%9A%BD%F0%9F%8F%80;Storyteller%20turned%20systems%20engineer%20%F0%9F%8E%99%EF%B8%8F;From%20operating%20tech%20to%20building%20it%20%E2%9C%A8" alt="I keep autonomous robots moving · I validate live data that trains AI · Storyteller turned systems engineer · From operating tech to building it"/></a>
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=mariafuquene&color=7f5af0&style=flat-square&label=Visitas" alt="Visitas al perfil"/>
-  <a href="https://github.com/mariafuquene?tab=followers"><img src="https://img.shields.io/github/followers/mariafuquene?label=Seguidores&style=flat-square&color=e53170" alt="Seguidores"/></a>
-</p>
+<a href="https://www.linkedin.com/in/maria-camila-fuquene"><img src="https://img.shields.io/badge/LinkedIn-Connect-D4AF37?style=for-the-badge&logo=linkedin&logoColor=FFD700&labelColor=0D0D0D" alt="LinkedIn"/></a>
+<a href="mailto:mcamila.fuqueneg@gmail.com"><img src="https://img.shields.io/badge/Email-Write_me-D4AF37?style=for-the-badge&logo=gmail&logoColor=FFD700&labelColor=0D0D0D" alt="Email: mcamila.fuqueneg@gmail.com"/></a>
+<img src="https://img.shields.io/badge/Colombia-ES_%C2%B7_EN_B2%2B-D4AF37?style=for-the-badge&labelColor=0D0D0D" alt="Colombia · Spanish native · English B2+"/>
+
+<img src="https://visitor-badge.laobi.icu/badge?page_id=mariafuquene.mariafuquene&left_color=%230D0D0D&right_color=%23D4AF37&left_text=profile%20views" alt="Profile views"/>
 
 </div>
 
----
+<br/>
 
-## 👩‍💻 Sobre mí
+<!-- ═══════════════ WHO I AM ═══════════════ -->
+<div align="center">
+  <img src="./assets/about.svg" width="100%" alt="Who I am — 🤖 I monitor autonomous delivery robots in real time · ⚽🏀 I lead live football & NBA data operations for AI vision models · 🎙️ Journalist by training: content, photography, storytelling"/>
+</div>
 
-```js
-const maria = {
-  nombre: "María Camila Fúquene Galvis",
-  rol: "Frontend Developer",
-  stack: ["HTML", "CSS", "JavaScript", "React"],
-  aprendiendo: ["TypeScript", "Testing", "Accesibilidad web"],
-  pasion: "Crear experiencias web bonitas, accesibles e interactivas",
-  saludar() {
-    return `¡Gracias por visitar mi perfil! 💜`;
-  },
-};
-```
+<br/>
 
-## 🛠️ Tecnologías
+<!-- ═══════════════ TIMELINE ═══════════════ -->
+<div align="center">
+  <img src="./assets/timeline.svg" width="100%" alt="My journey — 2015 Sanitas (Communications) → 2016 Bottero (Community Manager) → 2020–2025 Amazon (Customer Ops & QA) → 2025 Genius Sports (Match Lead) → 2025 Emapta (Robot Operator) → Now: Systems Engineering student"/>
+</div>
 
+<br/>
+
+<!-- ═══════════════ TECH STACK ═══════════════ -->
 <div align="center">
 
-<a href="https://developer.mozilla.org/es/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" height="56" alt="HTML"/></a>&nbsp;
-<a href="https://developer.mozilla.org/es/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" height="56" alt="CSS"/></a>&nbsp;
-<a href="https://developer.mozilla.org/es/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" height="56" alt="JavaScript"/></a>&nbsp;
-<a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" height="56" alt="React"/></a>
+### ✦ Tech stack <sub><sup>🌱 currently learning</sup></sub>
 
-<sub>Herramientas</sub><br/>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,vite,npm,figma&perline=6" alt="Herramientas"/>
+<img src="https://skillicons.dev/icons?i=python,html,css,js,git,github,vscode&theme=dark" alt="Python · HTML · CSS · JavaScript · Git · GitHub · VS Code"/>
+
+### ✦ Ops toolkit
+
+<img src="https://img.shields.io/badge/Real--Time_Monitoring-D4AF37?style=for-the-badge" alt="Real-Time Monitoring"/>
+<img src="https://img.shields.io/badge/Geofencing-D4AF37?style=for-the-badge" alt="Geofencing"/>
+<img src="https://img.shields.io/badge/Data_Validation-D4AF37?style=for-the-badge" alt="Data Validation"/>
+<img src="https://img.shields.io/badge/Incident_Reporting-D4AF37?style=for-the-badge" alt="Incident Reporting"/>
+<img src="https://img.shields.io/badge/QA_%26_Audits-D4AF37?style=for-the-badge" alt="QA & Audits"/>
+<img src="https://img.shields.io/badge/SLAs_%26_KPIs-D4AF37?style=for-the-badge" alt="SLAs & KPIs"/>
+<img src="https://img.shields.io/badge/Scrum-D4AF37?style=for-the-badge&logo=scrumalliance&logoColor=0D0D0D" alt="Scrum"/>
 
 </div>
 
-## 🎯 ¿Qué sé hacer? <sub><sup>(haz clic en cada sección)</sup></sub>
-
-<details>
-<summary><b>🧱 HTML — estructura semántica y accesible</b></summary>
 <br/>
 
-- Etiquetas semánticas (`header`, `main`, `section`, `article`, `nav`, `footer`)
-- Formularios con validación nativa
-- Accesibilidad: atributos `aria-*`, `alt`, jerarquía de encabezados
-- SEO básico con metaetiquetas
-
-```html
-<main>
-  <section aria-labelledby="proyectos">
-    <h2 id="proyectos">Mis proyectos</h2>
-    <article class="card">
-      <img src="proyecto.png" alt="Captura del proyecto" />
-      <h3>Mi proyecto</h3>
-    </article>
-  </section>
-</main>
-```
-</details>
-
-<details>
-<summary><b>🎨 CSS — diseño responsive y animaciones</b></summary>
-<br/>
-
-- Flexbox y CSS Grid
-- Diseño responsive con *media queries* y unidades relativas
-- Variables CSS, transiciones y `@keyframes`
-- El banner animado de este perfil está hecho **solo con SVG + CSS** ([ver código](./assets/header.svg))
-
-```css
-:root { --primario: #7f5af0; }
-
-.card {
-  display: grid;
-  gap: 1rem;
-  border-radius: 1rem;
-  transition: transform .3s ease, box-shadow .3s ease;
-}
-
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 24px rgb(127 90 240 / .3);
-}
-```
-</details>
-
-<details>
-<summary><b>⚡ JavaScript — lógica e interactividad</b></summary>
-<br/>
-
-- ES6+: *arrow functions*, desestructuración, *spread*, módulos
-- Manipulación del DOM y eventos
-- Asincronía con `Promise`, `async/await` y `fetch`
-- Métodos de arreglos: `map`, `filter`, `reduce`
-
-```js
-const obtenerRepos = async (usuario) => {
-  const res = await fetch(`https://api.github.com/users/${usuario}/repos`);
-  const repos = await res.json();
-  return repos
-    .filter(({ fork }) => !fork)
-    .map(({ name, stargazers_count }) => ({ name, estrellas: stargazers_count }));
-};
-```
-</details>
-
-<details>
-<summary><b>⚛️ React — componentes y estado</b></summary>
-<br/>
-
-- Componentes funcionales y JSX
-- Hooks: `useState`, `useEffect`, `useContext`, hooks personalizados
-- Props, renderizado condicional y listas
-- Proyectos con Vite
-
-```jsx
-import { useState } from "react";
-
-export default function Saludo() {
-  const [likes, setLikes] = useState(0);
-
-  return (
-    <button onClick={() => setLikes(likes + 1)}>
-      💜 Me gusta este perfil: {likes}
-    </button>
-  );
-}
-```
-</details>
-
-## 📊 Estadísticas
-
+<!-- ═══════════════ GITHUB GRAPHS ═══════════════ -->
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=mariafuquene&show_icons=true&theme=radical&hide_border=true&locale=es" alt="Estadísticas de GitHub"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mariafuquene&layout=compact&theme=radical&hide_border=true&locale=es" alt="Lenguajes más usados"/>
+### ✦ GitHub in motion
 
-<img src="https://streak-stats.demolab.com?user=mariafuquene&theme=radical&hide_border=true&locale=es" alt="Racha de contribuciones"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=mariafuquene&show_icons=true&rank_icon=github&bg_color=0D0D0D&title_color=FFD700&icon_color=D4AF37&text_color=E6E6E6&ring_color=FFD700&border_color=D4AF37&border_radius=12" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mariafuquene&layout=donut&langs_count=6&bg_color=0D0D0D&title_color=FFD700&text_color=E6E6E6&border_color=D4AF37&border_radius=12" alt="Top languages"/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mariafuquene&theme=react-dark&hide_border=true&area=true" alt="Gráfico de actividad"/>
+<img src="https://streak-stats.demolab.com?user=mariafuquene&background=0D0D0D&border=D4AF37&stroke=D4AF37&ring=FFD700&fire=FFD700&currStreakNum=FFD700&sideNums=D4AF37&currStreakLabel=FFD700&sideLabels=E6E6E6&dates=E6E6E6&border_radius=12" alt="Contribution streak"/>
+
+<img width="100%" src="./generated/activity-graph.svg" alt="Contribution activity graph"/>
+
+<img width="100%" src="https://github-trophies.vercel.app/?username=mariafuquene&theme=dark_lover&no-frame=true&column=7&margin-w=8" alt="GitHub trophies"/>
 
 </div>
 
-## 🐍 Mis contribuciones
+<br/>
 
+<!-- ═══════════════ 3D CONTRIBUTIONS ═══════════════ -->
+<div align="center">
+  <img src="./profile-3d-contrib/profile-customize.svg" width="100%" alt="3D contribution calendar"/>
+</div>
+
+<!-- ═══════════════ SNAKE ═══════════════ -->
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mariafuquene/mariafuquene/output/github-snake-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/mariafuquene/mariafuquene/output/github-snake.svg" alt="Serpiente comiendo mis contribuciones"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mariafuquene/mariafuquene/output/github-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/mariafuquene/mariafuquene/output/github-snake-dark.svg" width="100%" alt="Golden snake eating my contributions"/>
 </picture>
 </div>
 
-## 🤝 Conectemos
+<br/>
+
+<!-- ═══════════════ RIGHT NOW ═══════════════ -->
+<div align="center">
+
+### ✦ Right now
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="26" alt="🎓"/> &nbsp;Studying **Systems Engineering**<br/>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="26" alt="💻"/> &nbsp;Practicing **Python & web**<br/>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Seedling.png" width="26" alt="🌱"/> &nbsp;Uploading my **first projects** here
+
+</div>
+
+<br/>
+
+<!-- ═══════════════ ESPAÑOL ═══════════════ -->
+<details>
+<summary><b>🇨🇴 Leer en español</b></summary>
+<br/>
 
 <div align="center">
 
-<a href="https://github.com/mariafuquene"><img src="https://img.shields.io/badge/GitHub-mariafuquene-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
-<!-- Descomenta y completa con tu usuario de LinkedIn:
-<a href="https://www.linkedin.com/in/TU-USUARIO/"><img src="https://img.shields.io/badge/LinkedIn-Conectemos-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></a>
--->
+**Operaciones en tiempo real · Calidad de datos · Estudiante de Ingeniería de Sistemas**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=110&section=footer" width="100%" alt=""/>
+🤖 **Robots y tecnología** — Monitoreo robots de entrega autónomos en tiempo real<br/>
+⚽🏀 **Deportes y datos** — Lidero operaciones de datos en vivo de fútbol y NBA para modelos de visión con IA<br/>
+🎙️ **Comunicación y creatividad** — Periodista de formación: contenido, fotografía, storytelling
+
+**Trayectoria:** 2015 Sanitas (Comunicaciones) → 2016 Bottero (Community Manager) → 2020–2025 Amazon (Atención al cliente y QA) → 2025 Genius Sports (Match Lead) → 2025 Emapta (Operadora de robots) → Hoy: Ingeniería de Sistemas 🎓
+
+**Aprendiendo:** Python · HTML · CSS · JavaScript · Git
+
+**Ahora mismo:** 🎓 estudio Ingeniería de Sistemas · 💻 practico Python y web · 🌱 subo aquí mis primeros proyectos
+
+*De operar la tecnología a construirla.*
+
+</div>
+</details>
+
+<br/>
+
+<!-- ═══════════════ CLOSING ═══════════════ -->
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=4000&pause=2000&color=FFD700&center=true&vCenter=true&repeat=true&width=560&lines=From%20operating%20technology%20to%20building%20it." alt="From operating technology to building it."/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,55:5C4A12,100:D4AF37&height=120&section=footer" width="100%" alt=""/>
 
 </div>

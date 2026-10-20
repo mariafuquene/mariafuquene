@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="My journey: 2015 Sanitas, 2016 Bottero, 2020 to 2025 Amazon, 2025 Genius Sports, 2025 Emapta, now Systems Engineering">
+  <title>My journey</title>
+  <style>
+    .bg    { fill: #0D0D0D; }
+    .frame { fill: none; stroke: #D4AF37; stroke-width: 2; }
+    .title { font: 700 26px "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; fill: #FFD700; letter-spacing: 6px; }
+    .track { stroke: #2a2a2a; stroke-width: 4; stroke-linecap: round; }
+    .line  { stroke: #D4AF37; stroke-width: 4; stroke-linecap: round;
+             stroke-dasharray: 740; stroke-dashoffset: 740;
+             animation: draw 4.2s linear .3s forwards; }
+    .year  { font: 700 15px "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; fill: #FFD700; }
+    .org   { font: 700 14px "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; fill: #E6E6E6; }
+    .role  { font: 400 12px "Segoe UI", Ubuntu, "Helvetica Neue", Arial, sans-serif; fill: #D4AF37; }
+
+    .dot   { fill: #1a1a1a; stroke: #5c4a12; stroke-width: 3; animation: light .5s ease-out forwards; }
+    .halo  { fill: #FFD700; opacity: 0; transform-box: fill-box; transform-origin: center; }
+    .label { opacity: 0; animation: show .6s ease-out forwards; }
+
+    .s1 { animation-delay: .3s; }
+    .s2 { animation-delay: 1.1s; }
+    .s3 { animation-delay: 1.9s; }
+    .s4 { animation-delay: 2.7s; }
+    .s5 { animation-delay: 3.5s; }
+    .s6 { animation-delay: 4.3s; }
+
+    .now  { animation: pulse 2s ease-out 4.8s infinite; }
+
+    @keyframes draw  { to { stroke-dashoffset: 0; } }
+    @keyframes light { to { fill: #FFD700; stroke: #D4AF37; } }
+    @keyframes show  {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes pulse {
+      0%   { opacity: .6; transform: scale(1); }
+      100% { opacity: 0;  transform: scale(2.6); }
+    }
+  </style>
+
+  <rect class="bg" width="900" height="260" rx="16"/>
+  <rect class="frame" x="1" y="1" width="898" height="258" rx="16"/>
+
+  <text class="title" x="450" y="50" text-anchor="middle">MY JOURNEY</text>
+
+  <line class="track" x1="80" y1="130" x2="820" y2="130"/>
+  <line class="line"  x1="80" y1="130" x2="820" y2="130"/>
+
+  <!-- 2015 · Sanitas -->
+  <circle class="dot s1" cx="80" cy="130" r="9"/>
+  <g class="label s1">
+    <text class="year" x="80" y="108" text-anchor="middle">2015</text>
+    <text class="org"  x="80" y="166" text-anchor="middle">Sanitas</text>
+    <text class="role" x="80" y="186" text-anchor="middle">Communications</text>
+  </g>
+
+  <!-- 2016 · Bottero -->
+  <circle class="dot s2" cx="228" cy="130" r="9"/>
+  <g class="label s2">
+    <text class="year" x="228" y="108" text-anchor="middle">2016</text>
+    <text class="org"  x="228" y="166" text-anchor="middle">Bottero</text>
+    <text class="role" x="228" y="186" text-anchor="middle">Community Manager</text>
+  </g>
+
+  <!-- 2020–2025 · Amazon -->
+  <circle class="dot s3" cx="376" cy="130" r="9"/>
+  <g class="label s3">
+    <text class="year" x="376" y="108" text-anchor="middle">2020–2025</text>
+    <text class="org"  x="376" y="166" text-anchor="middle">Amazon</text>
+    <text class="role" x="376" y="186" text-anchor="middle">Customer Ops &amp; QA</text>
+  </g>
+
+  <!-- 2025 · Genius Sports -->
+  <circle class="dot s4" cx="524" cy="130" r="9"/>
+  <g class="label s4">
+    <text class="year" x="524" y="108" text-anchor="middle">2025</text>
+    <text class="org"  x="524" y="166" text-anchor="middle">Genius Sports</text>
+    <text class="role" x="524" y="186" text-anchor="middle">Match Lead</text>
+  </g>
+
+  <!-- 2025 · Emapta -->
+  <circle class="dot s5" cx="672" cy="130" r="9"/>
+  <g class="label s5">
+    <text class="year" x="672" y="108" text-anchor="middle">2025</text>
+    <text class="org"  x="672" y="166" text-anchor="middle">Emapta</text>
+    <text class="role" x="672" y="186" text-anchor="middle">Robot Operator</text>
+  </g>
+
+  <!-- Now · Systems Engineering -->
+  <circle class="halo now" cx="820" cy="130" r="9"/>
+  <circle class="dot s6" cx="820" cy="130" r="9"/>
+  <g class="label s6">
+    <text class="year" x="820" y="108" text-anchor="middle">Now</text>
+    <text class="org"  x="820" y="166" text-anchor="middle">Systems Engineering</text>
+    <text class="role" x="820" y="186" text-anchor="middle">Student 🎓</text>
+  </g>
+
+  <text class="role" x="450" y="232" text-anchor="middle" opacity=".7">from operating technology → to building it</text>
+</svg>
