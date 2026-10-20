@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="María Camila Fúquene Galvis — Frontend Developer">
+  <style>
+    .bg { fill: url(#grad); }
+    .title {
+      font: 700 42px "Segoe UI", Ubuntu, "Helvetica Neue", sans-serif;
+      fill: #ffffff;
+      opacity: 0;
+      animation: fadeUp 1s ease-out .2s forwards;
+    }
+    .subtitle {
+      font: 500 20px "Segoe UI", Ubuntu, "Helvetica Neue", sans-serif;
+      fill: #e9e3ff;
+      opacity: 0;
+      animation: fadeUp 1s ease-out .7s forwards;
+    }
+    .code {
+      font: 600 16px "Cascadia Code", Consolas, monospace;
+      fill: #ffffff;
+      opacity: .75;
+    }
+    .orb { animation: float 6s ease-in-out infinite; }
+    .orb.b { animation-delay: -2s; animation-duration: 8s; }
+    .orb.c { animation-delay: -4s; animation-duration: 7s; }
+    .ring { transform-origin: 790px 120px; animation: spin 18s linear infinite; }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50%      { transform: translateY(-16px); }
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7f5af0">
+        <animate attributeName="stop-color" values="#7f5af0;#2cb67d;#ff8906;#7f5af0" dur="12s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#e53170">
+        <animate attributeName="stop-color" values="#e53170;#7f5af0;#2cb67d;#e53170" dur="12s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <rect class="bg" width="900" height="240" rx="18"/>
+
+  <!-- Formas flotantes -->
+  <circle class="orb"   cx="70"  cy="200" r="28" fill="#ffffff" opacity=".12"/>
+  <circle class="orb b" cx="620" cy="40"  r="18" fill="#ffffff" opacity=".15"/>
+  <circle class="orb c" cx="480" cy="210" r="12" fill="#ffffff" opacity=".2"/>
+
+  <!-- Átomo estilo React -->
+  <g class="ring" fill="none" stroke="#ffffff" stroke-width="3" opacity=".85">
+    <ellipse cx="790" cy="120" rx="70" ry="26"/>
+    <ellipse cx="790" cy="120" rx="70" ry="26" transform="rotate(60 790 120)"/>
+    <ellipse cx="790" cy="120" rx="70" ry="26" transform="rotate(120 790 120)"/>
+  </g>
+  <circle cx="790" cy="120" r="10" fill="#ffffff"/>
+
+  <text class="code" x="50" y="58">&lt;Hola mundo /&gt;</text>
+  <text class="title" x="50" y="128">María Camila Fúquene Galvis</text>
+  <text class="subtitle" x="50" y="168">Frontend Developer · HTML · CSS · JavaScript · React<tspan class="cursor"> |</tspan></text>
+</svg>
