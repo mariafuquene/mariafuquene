@@ -115,7 +115,7 @@
 
 **Ahora mismo:** 🎓 estudio Ingeniería de Sistemas · 💻 practico Python y web · 🌱 subo aquí mis primeros proyectos
 
-*De operar la tecnología a construirla.*
+_De operar la tecnología a construirla._
 
 </div>
 </details>
