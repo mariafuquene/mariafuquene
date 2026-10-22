@@ -19,9 +19,9 @@
   <rect x="1" y="1" width="898" height="318" rx="12" fill="#FFFFFF" stroke="#C9A227" stroke-width="1.5"/>
   <text class="title" x="450.0" y="40" text-anchor="middle">CONTRIBUTION ACTIVITY · LAST 31 DAYS</text>
   <line x1="60" y1="270.0" x2="870" y2="270.0" stroke="#ECEEF2"/><line x1="60" y1="220.0" x2="870" y2="220.0" stroke="#ECEEF2"/><line x1="60" y1="170.0" x2="870" y2="170.0" stroke="#ECEEF2"/><line x1="60" y1="120.0" x2="870" y2="120.0" stroke="#ECEEF2"/><line x1="60" y1="70.0" x2="870" y2="70.0" stroke="#ECEEF2"/>
-  <text class="axis" x="48" y="274.0" text-anchor="end">0</text><text class="axis" x="48" y="224.0" text-anchor="end">2</text><text class="axis" x="48" y="174.0" text-anchor="end">4</text><text class="axis" x="48" y="124.0" text-anchor="end">5</text><text class="axis" x="48" y="74.0" text-anchor="end">7</text><text class="axis" x="60.0" y="292" text-anchor="middle">Sep 21</text><text class="axis" x="195.0" y="292" text-anchor="middle">Sep 26</text><text class="axis" x="330.0" y="292" text-anchor="middle">Oct 1</text><text class="axis" x="465.0" y="292" text-anchor="middle">Oct 6</text><text class="axis" x="600.0" y="292" text-anchor="middle">Oct 11</text><text class="axis" x="735.0" y="292" text-anchor="middle">Oct 16</text><text class="axis" x="870.0" y="292" text-anchor="middle">Oct 21</text>
-  <polygon class="area" points="60,270 60.0,270.0 87.0,270.0 114.0,270.0 141.0,270.0 168.0,270.0 195.0,270.0 222.0,270.0 249.0,270.0 276.0,270.0 303.0,270.0 330.0,270.0 357.0,270.0 384.0,270.0 411.0,270.0 438.0,270.0 465.0,270.0 492.0,270.0 519.0,270.0 546.0,270.0 573.0,270.0 600.0,270.0 627.0,270.0 654.0,270.0 681.0,241.4 708.0,270.0 735.0,270.0 762.0,270.0 789.0,270.0 816.0,270.0 843.0,70.0 870.0,270.0 870.0,270"/>
-  <polyline class="line" points="60.0,270.0 87.0,270.0 114.0,270.0 141.0,270.0 168.0,270.0 195.0,270.0 222.0,270.0 249.0,270.0 276.0,270.0 303.0,270.0 330.0,270.0 357.0,270.0 384.0,270.0 411.0,270.0 438.0,270.0 465.0,270.0 492.0,270.0 519.0,270.0 546.0,270.0 573.0,270.0 600.0,270.0 627.0,270.0 654.0,270.0 681.0,241.4 708.0,270.0 735.0,270.0 762.0,270.0 789.0,270.0 816.0,270.0 843.0,70.0 870.0,270.0"/>
+  <text class="axis" x="48" y="274.0" text-anchor="end">0</text><text class="axis" x="48" y="224.0" text-anchor="end">2</text><text class="axis" x="48" y="174.0" text-anchor="end">4</text><text class="axis" x="48" y="124.0" text-anchor="end">5</text><text class="axis" x="48" y="74.0" text-anchor="end">7</text><text class="axis" x="60.0" y="292" text-anchor="middle">Sep 22</text><text class="axis" x="195.0" y="292" text-anchor="middle">Sep 27</text><text class="axis" x="330.0" y="292" text-anchor="middle">Oct 2</text><text class="axis" x="465.0" y="292" text-anchor="middle">Oct 7</text><text class="axis" x="600.0" y="292" text-anchor="middle">Oct 12</text><text class="axis" x="735.0" y="292" text-anchor="middle">Oct 17</text><text class="axis" x="870.0" y="292" text-anchor="middle">Oct 22</text>
+  <polygon class="area" points="60,270 60.0,270.0 87.0,270.0 114.0,270.0 141.0,270.0 168.0,270.0 195.0,270.0 222.0,270.0 249.0,270.0 276.0,270.0 303.0,270.0 330.0,270.0 357.0,270.0 384.0,270.0 411.0,270.0 438.0,270.0 465.0,270.0 492.0,270.0 519.0,270.0 546.0,270.0 573.0,270.0 600.0,270.0 627.0,270.0 654.0,241.4 681.0,270.0 708.0,270.0 735.0,270.0 762.0,270.0 789.0,270.0 816.0,70.0 843.0,270.0 870.0,270.0 870.0,270"/>
+  <polyline class="line" points="60.0,270.0 87.0,270.0 114.0,270.0 141.0,270.0 168.0,270.0 195.0,270.0 222.0,270.0 249.0,270.0 276.0,270.0 303.0,270.0 330.0,270.0 357.0,270.0 384.0,270.0 411.0,270.0 438.0,270.0 465.0,270.0 492.0,270.0 519.0,270.0 546.0,270.0 573.0,270.0 600.0,270.0 627.0,270.0 654.0,241.4 681.0,270.0 708.0,270.0 735.0,270.0 762.0,270.0 789.0,270.0 816.0,70.0 843.0,270.0 870.0,270.0"/>
   <circle class="dot" cx="60.0" cy="270.0" r="4" style="animation-delay:0.30s"/>
   <circle class="dot" cx="87.0" cy="270.0" r="4" style="animation-delay:0.36s"/>
   <circle class="dot" cx="114.0" cy="270.0" r="4" style="animation-delay:0.42s"/>
@@ -44,13 +44,13 @@
   <circle class="dot" cx="573.0" cy="270.0" r="4" style="animation-delay:1.44s"/>
   <circle class="dot" cx="600.0" cy="270.0" r="4" style="animation-delay:1.50s"/>
   <circle class="dot" cx="627.0" cy="270.0" r="4" style="animation-delay:1.56s"/>
-  <circle class="dot" cx="654.0" cy="270.0" r="4" style="animation-delay:1.62s"/>
-  <circle class="dot" cx="681.0" cy="241.4" r="4" style="animation-delay:1.68s"/>
+  <circle class="dot" cx="654.0" cy="241.4" r="4" style="animation-delay:1.62s"/>
+  <circle class="dot" cx="681.0" cy="270.0" r="4" style="animation-delay:1.68s"/>
   <circle class="dot" cx="708.0" cy="270.0" r="4" style="animation-delay:1.74s"/>
   <circle class="dot" cx="735.0" cy="270.0" r="4" style="animation-delay:1.80s"/>
   <circle class="dot" cx="762.0" cy="270.0" r="4" style="animation-delay:1.86s"/>
   <circle class="dot" cx="789.0" cy="270.0" r="4" style="animation-delay:1.92s"/>
-  <circle class="dot" cx="816.0" cy="270.0" r="4" style="animation-delay:1.98s"/>
-  <circle class="dot" cx="843.0" cy="70.0" r="4" style="animation-delay:2.04s"/>
+  <circle class="dot" cx="816.0" cy="70.0" r="4" style="animation-delay:1.98s"/>
+  <circle class="dot" cx="843.0" cy="270.0" r="4" style="animation-delay:2.04s"/>
   <circle class="dot" cx="870.0" cy="270.0" r="4" style="animation-delay:2.10s"/>
 </svg>
